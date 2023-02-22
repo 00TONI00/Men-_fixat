@@ -52,6 +52,6 @@ section h1
 
 .bg::after
 {
-    background: linear-gradient(rgba(0,0,0.5),rgba(0,0,0,.5)), url("https://img.freepik.com/foto-gratis/north-entrance-beach-al-amanecer-ideal-fondo_181624-34339.jpg?w=2000");
+    background: linear-gradient(rgba(0,0,0.5),rgba(0,0,0,.5)), url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freepik.es%2Ffotos-vectores-gratis%2Famanecer&psig=AOvVaw3wzwKrgRMO5ofBc1CNlk3F&ust=1677189846964000&source=images&cd=vfe&ved=0CA0QjRxqFwoTCJDajpyRqv0CFQAAAAAdAAAAABAD");
     background-size: cover;
 }
