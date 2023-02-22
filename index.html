@@ -1,1 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pàgina amb efecte Parallax</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
 
+	<nav>
+		<ul>
+			<li><a href="#">Inici</a></li>
+			<li><a href="#">Sobre nosaltres</a></li>
+			<li><a href="#">Serveis</a></li>
+			<li><a href="#">Contacte</a></li>
+		</ul>
+	</nav>
+
+	<section id="home" class="parallax-section">
+		<h1>Benvingut a la nostra pàgina web</h1>
+		<p>Explora el que oferim</p>
+	</section>
+
+	<section id="about" class="normal-section">
+		<h2>Sobre nosaltres</h2>
+		<p>Som una empresa que ofereix serveis de disseny web i programació</p>
+		<table>
+			<tr>
+				<th>Nom</th>
+				<th>Càrrec</th>
+				<th>Correu electrònic</th>
+			</tr>
+			<tr>
+				<td>Anthony</td>
+				<td>CEO</td>
+				<td>anthony@exemple.com</td>
+			</tr>
+			<tr>
+				<td>Marta</td>
+				<td>Designer</td>
+				<td>marta@exemple.com</td>
+			</tr>
+			<tr>
+				<td>David</td>
+				<td>Programador</td>
+				<td>david@exemple.com</td>
+			</tr>
+		</table>
+	</section>
+
+	<section id="services" class="parallax-section">
+		<h2>Els nostres serveis</h2>
+		<p>Oferim serveis de disseny web, programació, SEO i màrqueting digital</p>
+	</section>
+
+	<section id="contact" class="normal-section">
+		<h2>Contacte</h2>
+		<p>Posa't en contacte amb nosaltres per obtenir més informació sobre els nostres serveis</p>
+		<form>
+			<label>Nom</label>
+			<input type="text" name="name">
+			<label>Correu electrònic</label>
+			<input type="email" name="email">
+			<label>Missatge</label>
+			<textarea name="message"></textarea>
+			<input type="submit" value="Enviar">
+		</form>
+	</section>
+
+	<script type="text/javascript" src="parallax.js"></script>
+</body>
+</html>
