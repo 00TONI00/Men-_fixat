@@ -50,6 +50,12 @@ section h1
     z-index: -1;
 }
 
+.image-section
+{
+  background-color: rgb(56, 56, 56);
+    z-index: 999;
+}
+
 .bg::after
 {
     background: linear-gradient(rgba(0,0,0.5),rgba(0,0,0,.5)), url("https://www.institutoorl-iom.com/wp-content/uploads/2016/02/los-oidos-concierto.jpg");
