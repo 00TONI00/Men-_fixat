@@ -10,7 +10,7 @@ section
 {
     transform-style:preserve-3d;
     position: relative;
-    height: 100vh;
+    height: 50vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -54,32 +54,4 @@ section h1
 {
     background: linear-gradient(rgba(0,0,0.5),rgba(0,0,0,.5)), url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freepik.es%2Ffotos-premium%2Fpuertas-infierno-muchos-demonios_32705114.htm&psig=AOvVaw0zr4PT_HkjHzzeuZk7RioQ&ust=1677237989064000&source=images&cd=vfe&ved=0CA0QjRxqFwoTCODXm8jEq_0CFQAAAAAdAAAAABAD");
     background-size: cover;
-}
-header{
-    width: 100%;
-    height: 50px;
-    box-shadow: 1px 1px 5px rgb(255, 240, 252) ;
-    position: fixed;
-    background: white;
-}
-
-#menu
-{
-    width: 450px;
-    padding-top: 10px;
-    margin: auto;
-}
-
-#menu
-{
-    color:aliceblue;
-    text-decoration: none;
-    font: bold 16px verdana;
-    padding: 10px 20px 10px 20px;
-}
-
-#menu ul a:hover
-{
-    color:aqua;
-    background:rgb(255, 240, 252);
 }
