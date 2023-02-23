@@ -58,7 +58,28 @@ section h1
 header{
     width: 100%;
     height: 50px;
-    box-shadow: 1px 1px 5px #000;
+    box-shadow: 1px 1px 5px rgb(255, 240, 252) ;
+    position: fixed;
+    background: white;
 }
 
 #menu
+{
+    width: 450px;
+    padding-top: 10px;
+    margin: auto;
+}
+
+#menu
+{
+    color:aliceblue;
+    text-decoration: none;
+    font: bold 16px verdana;
+    padding: 10px 20px 10px 20px;
+}
+
+#menu ul a:hover
+{
+    color:aqua;
+    background:rgb(255, 240, 252);
+}
