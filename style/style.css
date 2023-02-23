@@ -50,7 +50,7 @@ section h1
     z-index: -1;
 }
 
-.bg1::after
+.bg::after
 {
     background: linear-gradient(rgba(0,0,0.5),rgba(0,0,0,.5)), url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freepik.es%2Ffotos-premium%2Fpuertas-infierno-muchos-demonios_32705114.htm&psig=AOvVaw0zr4PT_HkjHzzeuZk7RioQ&ust=1677237989064000&source=images&cd=vfe&ved=0CA0QjRxqFwoTCODXm8jEq_0CFQAAAAAdAAAAABAD");
     background-size: cover;
