@@ -103,8 +103,8 @@ nav {
     display: none;
     position: absolute;
     top: 40px;
-    left: center;
-    width: 50%;
+    left: 0;
+    width: 100%;
     background: blueviolet;
   }
 
