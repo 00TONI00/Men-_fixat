@@ -118,26 +118,16 @@ nav {
     display: block;
   }
 
-  nav .has-dropdown > a::after {
-    content: "▼";
-    margin-left: 5px;
-  }
-  
-  nav .submenu,
-  nav .subsubmenu {
+  nav ul ul ul {
     display: none;
     position: absolute;
-    top: 100%;
-    left: 0;
-    background-color: #444;
-    z-index: 1;
+    top: 0;
+    left: 100%;
+    width: 100%;
+    background: blueviolet;
   }
-  
-  nav .submenu > li:hover > .subsubmenu {
-    display: block;
-  }
-  
-  nav .has-dropdown:hover > .submenu {
+
+  nav ul ul li:hover > ul {
     display: block;
   }
 
