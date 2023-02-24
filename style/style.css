@@ -101,12 +101,12 @@ nav {
   .menu .submenu
   {
     display: none;
-    position: fixed;
+    position: absolute;
     top: 100%;
     left: 0;
     width: 200px;
-    background: white;
-    border: 1px solid #ccc;
+    background: pink;
+    border: 1px solid rgb(77, 76, 76);
   }
 
   .menu .submenu li
