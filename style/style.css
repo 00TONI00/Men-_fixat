@@ -79,13 +79,9 @@ nav {
     margin: 0;
     padding: 0;
     text-align: center;
-    display: flex;
   }
   
   nav ul li {
-    position: ;
-    flex: 1;
-    text-align: center;
     display: inline-block;
     margin: 0 10px;
   }
@@ -102,29 +98,24 @@ nav {
     background-color: rgb(77, 76, 76);
   }
 
-  nav ul li ul.submenu
+  nav ul ul
   {
+    display: none;
     position: absolute;
-    top: 100%;
+    top: 40px;
     left: 0;
     width: 100%;
-    display: none;
+    background: blueviolet;
   }
 
-  nav ul li:hover > ul.submenu
+  nav ul ul li
   {
     display: block;
   }
 
-  nav ul li ul.submenu li
+  nav ul li:hover > ul
   {
-    text-align: center;
-    background: #555;
-  }
-
-  nav ul li ul.submenu li a
-  {
-    padding: 0.5rem;
+    display: block;
   }
 
 
