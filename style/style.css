@@ -118,9 +118,32 @@ nav {
     display: block;
   }
 
+  nav .has-dropdown > a::after {
+    content: "▼";
+    margin-left: 5px;
+  }
+  
+  nav .submenu,
+  nav .subsubmenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #444;
+    z-index: 1;
+  }
+  
+  nav .submenu > li:hover > .subsubmenu {
+    display: block;
+  }
+  
+  nav .has-dropdown:hover > .submenu {
+    display: block;
+  }
 
 
 
+  
   .image-wrapper {
     display: flex;
   }
