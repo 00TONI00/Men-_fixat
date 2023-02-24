@@ -113,20 +113,15 @@ nav {
     display: block;
   }
 
-  nav ul li:hover > ul {
-    display: block;
-  }
-
-  nav ul ul li:hover > ul
+  nav ul li:hover > ul
   {
     display: block;
-    top: 0;
-    left: 100%;
   }
 
 
 
-  
+
+
   .image-wrapper {
     display: flex;
   }
