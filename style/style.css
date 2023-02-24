@@ -101,7 +101,7 @@ nav {
   nav ul ul
   {
     display: none;
-    position: center;
+    position: absolute;
     top: 40px;
     left: 0;
     width: 100%;
