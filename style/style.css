@@ -65,7 +65,6 @@ section h1
 .menu-section
 {
   background: #000;
-  z-index: 999;
   position: fixed;
 }
 
