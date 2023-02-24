@@ -101,7 +101,7 @@ nav {
   .menu .submenu
   {
     display: none;
-    position: absolute;
+    position: fixed;
     top: 100%;
     left: 0;
     width: 200px;
