@@ -113,21 +113,24 @@ nav {
     display: block;
   }
 
-  nav ul li:hover > ul
-  {
+  nav ul li:hover > ul {
     display: block;
   }
 
-  nav ul ul ul {
+  nav ul ul.subsubmenu {
     display: none;
     position: absolute;
     top: 0;
     left: 100%;
     width: 100%;
-    background: blueviolet;
+    background-color: greenyellow;
   }
 
-  nav ul ul li:hover > ul {
+  nav ul ul.subsubmenu li {
+    display: block;
+  }
+
+  nav ul li.has-dropdown:hover > ul.subsubmenu {
     display: block;
   }
 
