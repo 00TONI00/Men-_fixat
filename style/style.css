@@ -101,10 +101,10 @@ nav {
   nav ul ul
   {
     display: none;
-    position: absolute;
+    position: center;
     top: 40px;
     left: 0;
-    width: 100%;
+    width: 50%;
     background: blueviolet;
   }
 
