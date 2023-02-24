@@ -66,6 +66,7 @@ section h1
 {
   background: #000;
   z-index: 999;
+  position: fixed;
 }
 
 
@@ -88,7 +89,6 @@ ul, ol
   text-decoration: none;
   padding: 10px 15px;
   display: block;
-  position: fixed;
 }
 .nav li a:hover
 {
