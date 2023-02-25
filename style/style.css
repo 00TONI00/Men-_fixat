@@ -138,13 +138,12 @@ section h1
 	justify-content: center;
 	min-height: 100vh;
 	background: linear-gradient(#b7328d, #ac18c0);
-  position: center;
+  position: relative;
 }
 
 .container
 {
 	border: solid 1px rgba(255, 255, 255, 0.2);
-  position: relative;
 }
 
 table
