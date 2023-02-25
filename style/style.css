@@ -144,6 +144,7 @@ section h1
 .container
 {
 	border: solid 1px rgba(255, 255, 255, 0.2);
+  position: center;
 }
 
 table
