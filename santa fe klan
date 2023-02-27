@@ -1,1 +1,25 @@
+<!DOCTYPE html>
+<html lang="cat">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>EFECTE PARALLAX</title>
+</head>
+<body>
 
+    <ul class="nav">
+        <li><a href="index.html">Inici</a></li>
+      
+        <li><a href="Informació dels Cantants.html">Informació dels Cantants</a></li>
+    
+        <li><a href="Cançons Preferides.html">Cançons Preferides</a>
+          <ul>
+            <li><a href="">Top 10 Cançons</a></li>
+    
+        <li><a href="">Més Informació</a></li>
+    </ul>
+
+</body>
+</html>
