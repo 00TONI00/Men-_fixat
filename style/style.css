@@ -247,7 +247,7 @@ tbody tr:hover
   summary
   {
     background-color: blueviolet;
-    color:whitesmoke;
+    color: rgb(56, 56, 56);
     padding: 20px;
     cursor: pointer;
     position: absolute;
