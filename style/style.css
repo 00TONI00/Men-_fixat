@@ -250,6 +250,7 @@ tbody tr:hover
     color:whitesmoke;
     padding: 20px;
     cursor: pointer;
+    position: absolute;
   }
 
   .p
