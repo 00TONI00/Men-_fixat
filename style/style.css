@@ -252,7 +252,8 @@ tbody tr:hover
     cursor: pointer;
   }
 
-  p
+  .p
   {
-    
+    padding: 10px;
+    background: whitesmoke;
   }
