@@ -256,4 +256,5 @@ tbody tr:hover
   {
     padding: 10px;
     background: whitesmoke;
+    overflow: hidden;
   }
