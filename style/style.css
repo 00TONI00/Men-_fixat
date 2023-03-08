@@ -250,6 +250,9 @@ tbody tr:hover
     color: rgb(56, 56, 56);
     padding: 20px;
     cursor: pointer;
+    width: 100%;
+    
+
   }
 
   .p
